@@ -3,7 +3,7 @@ import { useAuth } from '../AuthContext';
 import { ArrowLeft, Clock, Package, DollarSign, ListOrdered } from 'lucide-react';
 import { useNavigate, Navigate } from 'react-router-dom';
 
-const URL_API = 'sabor-que-conecta-fullstack-production.up.railway.app/orders/';
+const URL_API = 'https://sabor-que-conecta-fullstack.vercel.app/orders/';
 
 export default function OrderHistory() {
     const { user, isAuthenticated } = useAuth();

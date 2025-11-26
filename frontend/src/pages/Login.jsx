@@ -3,7 +3,7 @@ import { useNavigate, Link } from 'react-router-dom';
 import { Mail, Lock, LogIn } from 'lucide-react';
 import { useAuth } from '../AuthContext'; 
 
-const URL_LOGIN = 'sabor-que-conecta-fullstack-production.up.railway.app/login';
+const URL_LOGIN = 'https://sabor-que-conecta-fullstack.vercel.app/login';
 
 export default function Login() {
   const navigate = useNavigate();

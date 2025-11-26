@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Home, MapPin } from 'lucide-react';
 
-const URL_ADDRESS = 'sabor-que-conecta-fullstack-production.up.railway.app/address';
+const URL_ADDRESS = 'https://sabor-que-conecta-fullstack.vercel.app/address';
 
 export default function Address() {
   const navigate = useNavigate();

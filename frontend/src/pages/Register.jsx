@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { UserPlus, Mail, Lock, Check } from 'lucide-react';
 
-const URL_REGISTER = 'sabor-que-conecta-fullstack-production.up.railway.app/register';
+const URL_REGISTER = 'https://sabor-que-conecta-fullstack.vercel.app/register';
 
 export default function Register() {
   const navigate = useNavigate();

@@ -4,8 +4,8 @@ import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../AuthContext'; 
 import HeroBanner from '../components/HeroBanner'; // Banner Promocional
 
-const URL_API = 'sabor-que-conecta-fullstack-production.up.railway.app/produtos';
-const URL_ORDERS = 'sabor-que-conecta-fullstack-production.up.railway.app/orders';
+const URL_API = 'https://sabor-que-conecta-fullstack.vercel.app/produtos';
+const URL_ORDERS = 'https://sabor-que-conecta-fullstack.vercel.app/orders';
 const PLACEHOLDER_IMAGE = 'https://via.placeholder.com/400x300/f0f0f0/6e6e6e?text=No+Photo';
 
 export default function Consumidor() {
