@@ -9,11 +9,8 @@ app.use(cors());
 app.use(express.json());
 
 const pool = new Pool({
-  user: 'postgres',
-  host: 'localhost',
-  database: 'postgres', 
-  password: 'admin', 
-  port: 5432,
+  // O Railway define automaticamente a variável DATABASE_URL.
+  // Usaremos o link copiado para rodar o script de migração no passo 3.
 });
 
 pool.connect((err) => {
