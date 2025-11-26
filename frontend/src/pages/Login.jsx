@@ -3,7 +3,7 @@ import { useNavigate, Link } from 'react-router-dom';
 import { Mail, Lock, LogIn } from 'lucide-react';
 import { useAuth } from '../AuthContext'; 
 
-const URL_LOGIN = 'http://localhost:3000/login';
+const URL_LOGIN = 'sabor-que-conecta-fullstack-production.up.railway.app/login';
 
 export default function Login() {
   const navigate = useNavigate();

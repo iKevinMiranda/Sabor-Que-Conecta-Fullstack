@@ -16,7 +16,7 @@ const STATUS_MAP = {
     ENTREGUE: { text: 'Entregue', color: '#27ae60' },
 };
 
-const URL_API = 'http://localhost:3000/produtos';
+const URL_API = 'sabor-que-conecta-fullstack-production.up.railway.app/produtos';
 const INITIAL_FORM = { id: null, nome: '', produtor: '', preco: '', categoria: 'Legumes', imagem: '' };
 
 export default function Produtor() {

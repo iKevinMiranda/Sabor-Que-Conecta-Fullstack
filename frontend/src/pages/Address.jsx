@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Home, MapPin } from 'lucide-react';
 
-const URL_ADDRESS = 'http://localhost:3000/address';
+const URL_ADDRESS = 'sabor-que-conecta-fullstack-production.up.railway.app/address';
 
 export default function Address() {
   const navigate = useNavigate();
