@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+:root {
+  --green-primary: #27ae60;
+  --green-dark: #219150;
+  --orange-accent: #e67e22;
+  --bg-color: #f8f9fa;
+  --text-dark: #2c3e50;
+  --card-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-dark);
+  /* NOVO: Fundo sutil para profissionalizar o look */
+  background-image: url('https://www.transparenttextures.com/patterns/clean-textile.png'); 
+}
+
+.container {
+  max-width: 1250px; 
+  margin: 0 auto;
+  padding: 30px; 
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-primary { background: var(--green-primary); color: white; }
+.btn-primary:hover { background: var(--green-dark); transform: translateY(-2px); }
+
+.btn-outline { border: 2px solid var(--green-primary); background: transparent; color: var(--green-primary); }
+.btn-outline:hover { background: var(--green-primary); color: white; }
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.product-card {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: var(--card-shadow);
+  transition: transform 0.3s;
+  min-height: 400px; 
+  display: flex;
+  flex-direction: column;
+}
+.product-card:hover { transform: translateY(-5px); }
+
+.input-group {
+  margin-bottom: 15px;
+}
+.input-group label { display: block; margin-bottom: 5px; font-weight: 600; }
+.input-group input, .input-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-family: inherit;
+}
